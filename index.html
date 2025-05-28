@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nonna Biagge</title>
+  <link rel="stylesheet" href="deco.css" />
+  
+</head>
+<body>
+
+
+
+  <header>
+    <img src="imagens/Logo.png" alt="Logo Bella Vita" class="logo">
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+  <video autoplay muted loop playsinline>
+    <source src="Vídeo/hero.mp4" type="video/mp4" />
+    Seu navegador não suporta vídeo.
+  </video>
+  <h2>O sabor que define a Itália</h2>
+</section>
+
+
+  <main>
+    <section id="sobre">
+      <h3>Sobre Nós</h3>
+      <p>Bem-vindo ao Nonna Biagge, um espaço dedicado ao prazer da boa mesa.
+Aqui, cada prato nasce do respeito pela tradição italiana, com ingredientes frescos, selecionados com rigor, e preparados com a paixão de quem entende que cozinhar é uma arte.</p>
+      <p>Da simplicidade de uma massa bem feita aos sabores marcantes de nossas receitas clássicas, oferecemos uma experiência que envolve todos os sentidos — aroma, textura, sabor e memória.</p>
+      <p>Mais do que um restaurante, o Nonna Biagge é um convite para desfrutar, sem pressa, da verdadeira essência da gastronomia.</p>
+    </section>
+
+    <section id="cardapio">
+      <h3>Cardápio</h3>
+
+      <h4> <p>Antipasti - Entrada </p></h4>
+      <div class="menu-grid">
+      
+
+ <div class="menu-item">
+          <img src="Imagens/bruschetta.png" alt="bruschetta">
+          <div>
+            <h4>Bruschetta</h4>
+            <p id="preco">R$ 18,00</p>
+            <button class="saiba-mais" onclick="abrirModal('bruschetta')">Saiba mais</button>
+          </div>
+        </div>
+
+          <div class="menu-item">
+          <img src="Imagens/arancini.png" alt="Arancini">
+          <div>
+            <h4>Arancini Siciliani</h4>
+            <p id="preco">R$ 19,00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="Imagens/carpaccio.jpg" alt="carpaccio">
+          <div>
+            <h4>Carpaccio</h4>
+            <p id="preco">R$ 19,90</p>
+          </div>
+        </div>
+        </div>
+    <br>
+         <h4> <p>Primi Piatti - Primeiro Prato</p></h4>
+      <div class="menu-grid">
+
+
+        <div class="menu-item">
+          <img src="Imagens/carbonara.jpg" alt="Spaghetti alla Carbonara">
+          <div>
+            <h4>Spaghetti alla Carbonara</h4>
+            <p id="preco">R$ 42,00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="Imagens/risoto.jpg" alt="Risoto de Funghi">
+          <div>
+            <h4>Risoto de Funghi</h4>
+            <p id="preco">R$ 48,00</p>
+          </div>
+        </div>
+        
+         <div class="menu-item">
+          <img src="Imagens/gnocchi.jpg" alt="gnocchi">
+          <div>
+            <h4>Gnocchi al Pesto</h4>
+            <p id="preco">R$ 39,50</p>
+          </div>
+        </div>
+
+        
+        <div class="menu-item">
+          <img src="Imagens/lasanha.jpg" alt="Lasagna">
+          <div>
+            <h4>Lasagna alla Bolognese</h4>
+            <p id="preco">R$ 45,00</p>
+          </div>
+        </div>
+
+       <div class="menu-item">
+          <img src="Imagens/marguerita.jpg" alt="Pizza Margherita">
+          <div>
+            <h4>Pizza Margherita</h4>
+            <p id="preco">R$ 38,00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="Imagens/alfredo.jpg" alt="fettucine">
+          <div>
+            <h4>Fettuccine Alfredo</h4>
+            <p id="preco">R$ 41,00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="Imagens/tagliatelle.jpg" alt="Tagliatelle al Ragù">
+          <div>
+            <h4>Tagliatelle al Ragù</h4>
+            <p id="preco">R$ 44,00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="Imagens/ravioli.jpg" alt="Ravioli">
+          <div>
+            <h4>Ravioli di Ricotta e Spinaci</h4>
+            <p id="preco">R$ 40,00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="Imagens/calzone.jpg" alt="Calzone Napoletano">
+          <div>
+            <h4>Calzone Napoletano</h4>
+            <p id="preco">R$ 36,00</p>
+          </div>
+        </div>
+
+    <div class="menu-item">
+          <img src="Imagens/pollo.jpg" alt="Pollo">
+          <div>
+            <h4>Pollo alla Cacciatora</h4>
+            <p id="preco">R$ 40,00</p>
+          </div>
+        </div>
+        </div>
+<br>
+         <h4> <p>Dolci - Sobremesas </p></h4>
+      <div class="menu-grid">
+
+        <div class="menu-item">
+          <img src="Imagens/tiramisu.jpg" alt="Tiramisu Tradizionale">
+          <div>
+            <h4>Tiramisu Tradizionale</h4>
+            <p id="preco">R$ 22,00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="Imagens/panna.jpg" alt="Panna Cotta">
+          <div>
+            <h4>Panna Cotta con Frutti di Bosco</h4>
+            <p id="preco">R$ 20,00</p>
+          </div>
+        </div>
+
+        <div class="menu-item">
+          <img src="Imagens/gelato.jpg" alt="Gelato">
+          <div>
+            <h4>Gelato Artesanal</h4>
+            <p id="preco">R$ 12,00</p>
+          </div>
+     </div>
+
+
+      </div>
+    </section>
+
+    <section id="contato">
+      <h3>Contato</h3>
+      <p>📍 Rua das Flores, 123 - Santos, SP</p>
+      <p>📞 (13) 99999-9999</p>
+      <p>📧 contato@nonnabiagge.com.br</p>
+    </section>
+   </main>
+
+   <footer>
+      &copy; 2025 Nonna Biagge - Todos os direitos reservados
+   </footer>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="fecharModal()">&times;</span>
+    <img id="modalImagem" src="" alt="Imagem do prato">
+    <h2 id="modalTitulo"></h2>
+    <p id="modalDescricao"></p>
+  </div>
+</div>
+
+
+
+<script>
+  const conteudoModal = {
+    bruschetta: {
+      titulo: 'Bruschetta',
+      descricao: 'Pão italiano crocante com tomate fresco, manjericão e azeite extra virgem.',
+        imagem: 'Imagens/bruschetta.png'
+    },
+
+    arancini: {
+      titulo: 'Arancini Siciliani',
+      descricao: 'Bolinho de arroz italiano, com recheio de rau, ervilhas e queijo, empanado e frito.',
+        imagem: 'Imagens/arancini.png'
+    },
+
+//.
+  };
+
+ function abrirModal(prato) {
+  document.getElementById('modalTitulo').innerText = conteudoModal[prato].titulo;
+  document.getElementById('modalDescricao').innerText = conteudoModal[prato].descricao;
+  document.getElementById('modalImagem').src = conteudoModal[prato].imagem;
+  document.getElementById('modal').style.display = 'block';
+}
+
+
+  function fecharModal() {
+    document.getElementById('modal').style.display = 'none';
+  }
+</script>
+
+
+</body>
+</html>

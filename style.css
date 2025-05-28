@@ -1,0 +1,56 @@
+
+
+#Menu {
+    background-color: #D9D9D9;
+    height: 75px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    top: 0;
+    left: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    opacity: 75%;
+    
+}
+
+#Pizza {
+
+    width: auto;
+    margin-top: 0px;
+    height: 650px;
+    right: 0;
+    left: 0;
+    top: 0;
+       
+}
+
+#Menu span {
+    display: inline-block;
+
+    
+
+}
+
+#menu_nomes {
+    margin-right: 100px;
+    font-family: italiana;
+    color: #121212;
+    font-size: 20px;
+    opacity: 70%;
+
+
+}
+
+
+
+
+.banner {
+    position: fixed;
+    width: 100%;
+    margin-top: 550px;
+   
+}
